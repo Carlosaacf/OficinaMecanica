@@ -17,8 +17,9 @@ A aplicação OficinaProject foi desenvolvida para gerenciar o cadastro de peça
 
 - **Angular**: Framework principal para a construção da aplicação.
 - **PrimeNG**: Biblioteca de componentes UI para Angular.
+  [Link PrimeNG](https://primeng.org/installation)
 - **PrimeFlex**: Biblioteca de CSS para layouts flexíveis e responsivos.
-
+  [Link PrimeFlex](https://primeflex.org/installation))
 ## Servidor de Desenvolvimento
 
 Execute `ng serve` para iniciar um servidor de desenvolvimento. Navegue até `http://localhost:4200/`. A aplicação será recarregada automaticamente se você alterar qualquer um dos arquivos fonte.
