@@ -1,0 +1,23 @@
+<div class="card">
+  <div>
+    <p-button label="Registrar" class="" icon="pi pi-check" (click)="enviaTelaCadastro()"></p-button>
+  </div>
+  <p-table [tableStyle]="{ 'min-width': '50rem' }" [value]="usuarios">
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Cpf</th>
+        <th>Telefone</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-usuario>
+      <tr>
+        <td>{{ usuario.userName }}</td>
+        <td>{{ usuario.email }}</td>
+        <td>{{ usuario.cpf }}</td>
+        <td>{{ usuario.telefone }}</td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
