@@ -1,27 +1,75 @@
 # OficinaProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 17.3.7.
 
-## Development server
+## Descrição
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A aplicação OficinaProject foi desenvolvida para gerenciar o cadastro de peças e clientes em uma oficina mecânica. Utilizamos Angular juntamente com PrimeNG e PrimeFlex para criar uma interface amigável e responsiva.
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Cadastro de Peças**: Permite adicionar, editar e visualizar peças no estoque.
+- **Cadastro de Clientes**: Permite registrar e gerenciar informações de clientes.
+- **Listagem e Busca**: Listas de peças e clientes com funcionalidade de busca e filtros.
+- **Design Responsivo**: Interface adaptável para dispositivos móveis e desktops.
+
+## Tecnologias Utilizadas
+
+- **Angular**: Framework principal para a construção da aplicação.
+- **PrimeNG**: Biblioteca de componentes UI para Angular.
+- **PrimeFlex**: Biblioteca de CSS para layouts flexíveis e responsivos.
+
+## Servidor de Desenvolvimento
+
+Execute `ng serve` para iniciar um servidor de desenvolvimento. Navegue até `http://localhost:4200/`. A aplicação será recarregada automaticamente se você alterar qualquer um dos arquivos fonte.
+
+## Estrutura de Código
+
+Execute `ng generate component component-name` para gerar um novo componente. Você também pode usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Execute `ng build` para compilar o projeto. Os artefatos de build serão armazenados no diretório `dist/`.
 
-## Running unit tests
+## Executando Testes Unitários
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Execute `ng test` para executar os testes unitários via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Executando Testes de Ponta a Ponta
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Execute `ng e2e` para executar os testes end-to-end através de uma plataforma de sua escolha. Para usar este comando, você precisa primeiro adicionar um pacote que implemente capacidades de testes end-to-end.
 
-## Further help
+## Ajuda Adicional
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira a [Visão Geral e Referência de Comandos do Angular CLI](https://angular.io/cli).
+
+## Contribuição
+
+Se você deseja contribuir para este projeto, siga as etapas abaixo:
+
+1. Fork este repositório.
+2. Crie uma nova branch:
+    ```bash
+    git checkout -b minha-nova-funcionalidade
+    ```
+3. Faça suas alterações e commit:
+    ```bash
+    git commit -m 'Adiciona nova funcionalidade'
+    ```
+4. Envie suas alterações para o repositório remoto:
+    ```bash
+    git push origin minha-nova-funcionalidade
+    ```
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto é licenciado sob a [MIT License](LICENSE).
+
+## Contato
+
+Para mais informações ou dúvidas, entre em contato:
+
+- **Nome**: Carlos Fonseca
+- **E-mail**: carlosaacf@gmail.com
+- **LinkedIn**: [Carlos Fonseca](https://linkedin.com/in/carlosaacf)
